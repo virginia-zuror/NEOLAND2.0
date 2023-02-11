@@ -1,0 +1,6 @@
+.griddCharacters{
+    display: grid;
+    grid-template-columns: repeat(4, 1.2fr);
+    gap:1rem;
+    
+}

@@ -1,0 +1,35 @@
+.App{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:var(--gap);
+  padding: var(--padding);
+}
+.btns{
+  display: flex;
+  width: 100%;
+  padding-top: 1rem;
+  gap: 2rem;
+  justify-content: space-evenly;
+  align-items:stretch;
+}
+.btnEduc{
+  padding: 1rem 0.5rem;
+  width: 200px;
+  font-size: var(--fs-h2);
+  transition: all 0.8s ease-in-out;
+}
+.btnEduc:hover{
+  background-color: #8ed5d5bd;
+}
+.education > .solid {
+  overflow: hidden;    
+  border-top: 3px solid var(--bg-button);
+  min-width: 100vw;
+  position:absolute;
+  top: 92%;
+ 
+}

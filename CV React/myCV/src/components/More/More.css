@@ -1,0 +1,19 @@
+.languages , .habilities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.languages>h3, .habilities>h3{
+    color:var(--color-highlight);
+}
+.languages>article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.languages>article>h4{
+    color: var(--bg-button)
+}

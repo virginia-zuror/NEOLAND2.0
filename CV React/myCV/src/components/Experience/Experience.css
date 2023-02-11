@@ -1,0 +1,20 @@
+.experience{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.experience> article{
+    background-color: #07808080;
+    border-radius: 40px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    text-align: center;
+}
+.experience> article>h3{
+    color: var(--color-highlight);
+}
