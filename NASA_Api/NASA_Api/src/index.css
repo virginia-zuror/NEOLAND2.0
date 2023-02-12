@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;1,500&display=swap');
+
+:root{
+    --background: #0C1C73; 
+	
+    --link: #bc2525; 
+
+    --borders: #ff0000; 
+
+    --text: #eaeaea; 
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Raleway', sans-serif;
+    
+}
+body{
+    background-color: var(--background);
+}
