@@ -1,0 +1,6 @@
+.LFM{
+    display: grid;
+    grid-template-rows: 15vh
+                        75vh
+                        10vh;
+}
