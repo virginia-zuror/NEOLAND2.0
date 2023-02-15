@@ -1,0 +1,25 @@
+.users{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.users > div{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 1rem;
+    text-align: center;
+
+}
+.users > div > figure{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.users > div > figure> h3 >a{
+    color: var(--highlight);
+}

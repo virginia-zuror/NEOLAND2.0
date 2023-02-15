@@ -1,0 +1,31 @@
+.usersDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.usersDetail >figure{
+    width: 31.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:0.5rem;
+}
+.usersDetail >figure > h3{
+    color: var(--highlight);
+    font-size: 25px;
+}
+
+.usersDetail > figure> figcaption{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+
+}
+.usersDetail > figure> figcaption > h3{
+    color: var(--highlight);
+}
