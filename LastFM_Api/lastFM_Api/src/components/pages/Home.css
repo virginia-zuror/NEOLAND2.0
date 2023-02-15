@@ -1,0 +1,28 @@
+.topMusic{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.topMusic>figure{
+    display: flex;
+    width: 180px;
+    height: 190px;
+    padding: 0.5rem;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--highlight);
+}
+.topMusic > figure > a{
+    text-decoration: underline;
+    transition: all ease-in-out 0.6s;
+}
+.topMusic > figure > a:hover{
+    text-decoration: underline rgb(187, 37, 37);
+}
