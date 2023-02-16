@@ -1,0 +1,44 @@
+.characters{
+    
+    padding-top: 42rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    padding-top: 42rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-bottom: 4rem;
+    
+}
+.characters > div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.characters>div>h1{
+    color: var(--highlight-font);
+    
+}
+.characters > div > figure{
+    background-color: var(--backcolor-figures);
+    padding:0.5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 0.4rem;
+    text-align: center;
+}
+.characters > div > figure>h2{
+    color: var(--highlight-font);
+}
+.characters > div > figure>p{
+    text-align: justify;
+}
+
+.characters > div > figure>h4{
+    color: var(--highlight-font);
+}
